@@ -1,0 +1,23 @@
+body {
+    background-image: url('imagens/tijolo.jpg');
+    background-repeat: repeat;
+  }
+  
+
+  body {
+    color: white;
+  }
+  
+
+  body {
+    font-family: Verdana, Arial, sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+
+  h2, h3 {
+    font-style: italic;
+  }
