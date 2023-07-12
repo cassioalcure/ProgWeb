@@ -1,0 +1,122 @@
+table{
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    font-size: 12px;
+    font-family: Arial;
+    width: 600px;
+}
+
+table td, table th{
+    border-bottom: 1px solid #dddddd;
+}
+
+.linha>*{
+    border-top: 2px solid #cccccc;
+}
+
+.posicao{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+
+.time{
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+}
+.pontos{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 7%;
+}
+
+.legenda{
+    font-size: 10px;
+    color: #555555;
+}
+
+.legenda div{
+    border-radius: 3px;
+    margin-inline: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+div.box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sigla{
+    font-weight: bold;
+}
+
+.cores{
+    color: #8f8f8f;
+    border-bottom: none;
+}
+
+
+.estatistica{
+    width: 7%;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.porcent{
+    width: 10%;
+}
+
+.bg{
+    background: #f7f7f7;
+}
+
+.l{
+    color: #003366;
+}
+
+div.l{
+    background: #003366;
+}
+
+.p{
+    color: #1398be;
+}
+
+div.p{
+    background: #1398be;
+}
+
+.a{
+    color: #de9800;
+}
+
+div.a{
+    background: #de9800;
+}
+
+.g{
+    color: #cccccc;
+}
+
+.r{
+    color: #c91b04;
+}
+
+div.r{
+    background: #c91b04;
+}

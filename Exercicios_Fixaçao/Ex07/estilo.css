@@ -1,0 +1,37 @@
+table{
+    font-weight: bold;
+    border-style: none;
+    font-size: 12px;
+    font-family: Arial;
+    width: 600px;
+}
+
+th{
+    background: #66c5e3;
+}
+
+td{
+    background: #c7e7f3;
+}
+
+table .titulo{
+    color: white;
+    background: #0d5188;
+}
+
+table .cidade{
+    color: #0d5188;
+}
+
+table .posicao{
+    text-align: center;
+    width: 10%;
+    font-weight: 300;
+    background: silver;
+}
+
+table .populacao{
+    text-align: center;
+    font-weight: 300;
+    width: 15%;
+}

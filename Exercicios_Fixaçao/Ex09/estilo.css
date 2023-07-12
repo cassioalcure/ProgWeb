@@ -1,0 +1,44 @@
+body {
+    background-image: url(../imagens/zen-bg.jpg);
+    background-repeat: no-repeat;
+    padding: 5vh 15vh 0vh 15vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: slategray;
+}
+
+.row * {
+    margin-right: 10px;
+}
+
+.title2 {
+    align-self: flex-end;
+}
+
+.demo {
+    text-align: center;
+    font-style: italic;
+}
+
+.text{
+    text-align: justify;
+}
+
+.text * {
+    margin-bottom: 5px;
+}
+
+p.title {
+    font-style: italic;
+    font-size: 14pt;
+}

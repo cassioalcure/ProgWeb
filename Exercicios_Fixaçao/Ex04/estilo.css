@@ -1,0 +1,13 @@
+body{ 
+    font-family: arial;
+}
+table td {
+    padding: 2px;
+}
+caption {
+    color: green;
+    font-size: 1.5em;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+}

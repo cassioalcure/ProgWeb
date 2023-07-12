@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-image: url(../imagens/floresta8.png);
+    font-size: 20pt;
+    padding: 10pt;
+    color: white;
+}
+a {
+    color: #17e923;
+}
+
+.eaibeleza{
+
+    background-color: rgba(0, 0, 0, 0.6 );
+    
+}
