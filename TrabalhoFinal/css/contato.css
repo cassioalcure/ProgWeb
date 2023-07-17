@@ -1,0 +1,95 @@
+@font-face{
+    font-family: rubik;
+    src: url(../fontes/Rubik-VariableFont_wght.ttf)
+  }
+  @font-face{
+    font-family: gamer;
+    src: url(../fontes/DebugFreeTrial-MVdYB.otf)
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .logo h1 {
+    font-family: gamer;
+    font-size: 60px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contato {
+    padding: 20px;
+  }
+  
+  .contato h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contato form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contato form input,
+  .contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contato form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
