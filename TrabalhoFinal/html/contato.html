@@ -6,14 +6,12 @@
   <title>Contato</title>
   <link rel="stylesheet" href="../css/contato.css">
   <link rel="stylesheet" href="../css/index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
   <header>
     <div class="logo">
-        <h1><i class="fa-solid fa-gamepad" style="color: #ffffff;"></i> PutzJogos</h1>
+      <h1><i class="fa-solid fa-gamepad" style="color: #ffffff;"></i> PutzJogos</h1>
     </div>
     <nav>
       <ul>
@@ -33,8 +31,34 @@
       <label for="email">E-mail:</label>
       <input type="email" id="email" name="email" required>
 
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
+
       <label for="mensagem">Mensagem:</label>
       <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <label for="data">Data de Nascimento:</label>
+      <input type="date" id="data" name="data" required>
+
+      <label for="genero">Gênero Preferido:</label>
+      <select id="genero" name="genero" required>
+        <option value="">Selecione...</option>
+        <option value="acao">Ação</option>
+        <option value="aventura">Aventura</option>
+        <option value="estrategia">Estratégia</option>
+        <option value="rpg">RPG</option>
+        <option value="esporte">Esporte</option>
+      </select>
+
+      <label for="plataforma">Plataforma Preferida:</label>
+      <select id="plataforma" name="plataforma" required>
+        <option value="">Selecione...</option>
+        <option value="pc">PC</option>
+        <option value="playstation">PlayStation</option>
+        <option value="xbox">Xbox</option>
+        <option value="nintendo">Nintendo</option>
+        <option value="mobile">Mobile</option>
+      </select>
 
       <button type="submit">Enviar</button>
     </form>
